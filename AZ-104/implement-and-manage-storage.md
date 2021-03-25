@@ -41,9 +41,9 @@ You can choose whether to let Azure manage the storage infrastructure for your v
 
 ### Disk Roles
 Each disk can take one of three roles in a virtual machine (* means VMs get these disks by default):
-* *Operating System disk (/dev/sda). one disk in each VM that contains OS files
+* Operating System disk (/dev/sda). one disk in each VM that contains OS files
 * Data disk. one or more data virtual disks to each virtual machine to store data
-* *Temporary disk (dev/sdb). a single temp disk used for short-term storage applications (page/swap files)
+* Temporary disk (dev/sdb). a single temp disk used for short-term storage applications (page/swap files)
 
 ### Ephemeral OS disks
 A virtual disk that saves data on the local virtual machine storage. It’s has faster read-and-write latency than a managed disk, also faster to reset the image to the original boot state. Works well when you want to host a stateless workload (i.e. business logic for multi-tier website or micro-service).

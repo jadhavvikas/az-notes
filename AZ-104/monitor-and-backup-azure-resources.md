@@ -106,22 +106,3 @@ Failback is the reverse of failover. It’s where a completed failover to a seco
 
 More info on Failover, Reprotection, and Failback - if needed.
 https://docs.microsoft.com/en-us/learn/modules/protect-infrastructure-with-site-recovery/7-failover-and-failback
-
-Reliability                   NOT NEEDED FOR AZ104????
-
-
-
-
-
-
-
-
-Azure Sentinel                   NOT NEEDED FOR AZ104????
-Collect data on the devices, users, infrastructure, and applications across your enterprise. Built-in threat intelligence for detection and investigation can help reduce false positives. Use Sentinel to proactively hunt for threats and anomalies, and respond by orchestration and automation.
-You use Azure Sentinel if:
-* You want a detailed overview of your organization, potentially across multiple clouds and on-premises locations.
-* You want to avoid reliance on complex and disparate tools.
-* You want to use enterprise-grade AI, built by experts, to identify and handle threats across your organization.
-
-Connect your data sources
-You create an Azure Sentinel resource in the Azure portal. The process for creating this resource involves creating a Log Analytics workspace, and then adding it to Sentinel.
